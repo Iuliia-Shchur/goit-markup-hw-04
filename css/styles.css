@@ -476,6 +476,10 @@ img {
   margin-bottom: 20px;
 }
 
+.footer-social-icons-item {
+  display: inline-block;
+}
+
 .footer-social-icons-item:not(:last-child) {
   margin-right: 10px;
 }
