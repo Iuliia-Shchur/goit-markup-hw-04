@@ -377,6 +377,47 @@ img {
   background-color: var(--primary-logo-color);
 }
 
+/* Clients */
+.clients {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-list-item {
+  --grid-item: 6;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-list-item:hover .clients-link,
+.clients-list-item:focus .clients-link {
+  border: 1px solid var(--primary-logo-color);
+  border-radius: 4px;
+}
+
+.clients-link:hover .icon,
+.clients-link:focus .icon {
+  fill: var(--primary-logo-color);
+}
+
 /* Footer */
 .footer-logo {
   margin-bottom: 20px;
