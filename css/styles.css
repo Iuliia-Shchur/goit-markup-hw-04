@@ -161,29 +161,16 @@ img {
   text-decoration: none;
 }
 
-.contact-link .mail-icon {
-  width: 16px;
-  height: 12px;
+.contact-link .icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contact-link:hover .mail-icon,
-.contact-link:focus .mail-icon {
-  fill: var(--primary-logo-color);
-}
-
-.contact-link .phone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
+.contact-link:hover .icon,
+.contact-link:focus .icon {
   fill: currentColor;
 }
 
-.contact-link:hover .phone-icon,
-.contact-link:focus .phone-icon {
-  fill: var(--primary-logo-color);
-}
 
 /* Hero section */
 .hero-section {
