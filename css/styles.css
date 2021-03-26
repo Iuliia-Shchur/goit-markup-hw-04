@@ -420,11 +420,6 @@ img {
 
 /* Footer */
 
-.footer-contacts {
-  display: flex;
-  flex-basis: ((50%-45px)/2);
-}
-
 .footer-logo {
   margin-bottom: 20px;
 }
@@ -434,6 +429,7 @@ img {
 }
 
 .contacts {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-dark);
@@ -471,11 +467,6 @@ img {
 }
 
 /* Footer social */
-
-.footer-social-list {
-  display: flex;
-  flex-basis: ((50%-45px)/2);
-}
 
 .footer-social-title {
   font-weight: 700;
